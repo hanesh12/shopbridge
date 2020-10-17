@@ -1,0 +1,8 @@
+        <div class="list-group " >
+          <a [routerLink]="['/listItem']" class="list-group-item" style="background-color: #ffffcc;">View All Items</a>
+ 
+        </div> 
+        <div class="list-group" *ngFor="let data of catdata ">
+            <a href="category/{{data.id}}" class="list-group-item">{{data.name}}</a>
+           
+          </div>

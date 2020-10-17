@@ -1,0 +1,71 @@
+{
+  "Items": [
+    {
+      "id": 1,
+      "categoryId": 1,
+      "name": "Nokia",
+      "description": "Cellphone",
+      "price": 7000,
+      "itemimage": "http://localhost:4200/assets/phone1.jpg"
+    },
+    {
+      "id": 2,
+      "categoryId": 1,
+      "name": "Samsung",
+      "description": "Cellphone",
+      "price": 17000,
+      "itemimage": "http://localhost:4200/assets/phone2.jpg"
+    },
+    {
+      "id": 3,
+      "categoryId": 2,
+      "name": "Samsung",
+      "description": "SD-card",
+      "price": 1000,
+      "itemimage": "http://localhost:4200/assets/sdcard.jpg"
+    },
+    {
+      "id": 4,
+      "categoryId": 3,
+      "name": "Intel",
+      "description": "Hard-Disk",
+      "price": 12000,
+      "itemimage": "http://localhost:4200/assets/hdd.jpg"
+    },
+    {
+      "id": 5,
+      "categoryId": 4,
+      "name": "Intel",
+      "description": "Mother-Board",
+      "price": 19000,
+      "itemimage": "http://localhost:4200/assets/motherboard.jpg"
+    }
+  ],
+  "Category": [
+    {
+      "id": 1,
+      "name": "Phone",
+      "description": "Mobile phones"
+    },
+    {
+      "id": 2,
+      "name": "SDCard",
+      "description": "Storage Device"
+    },
+    {
+      "id": 3,
+      "name": "HDD/SDD",
+      "description": "Storage Device"
+    },
+    {
+      "id": 4,
+      "name": "Pheriferals",
+      "description": "MotherBoard"
+    },
+    {
+      "id": 5,
+      "name": "AudioDevice",
+      "description": "Sound Systems"
+    }
+  ]
+}
