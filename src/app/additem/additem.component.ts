@@ -28,7 +28,7 @@ export class AdditemComponent implements OnInit {
    
     this.itemservice.createItem(newItem).subscribe(data =>{
 
-      
+      form.reset();
       //console.log(data);//write redirect code 
 
     })
